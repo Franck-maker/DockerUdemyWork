@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="En">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms project</title>
+
+        <style>
+            .logo{
+                width: 50px;
+                height: 50px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-left: 32px;
+                padding-right: 32px;
+            }
+            #navlogo{
+                text-align: center;
+                font-size: 32px;
+                 padding-top: 56px; 
+                 padding-bottom:32px;
+            }
+            .submit{
+                background-color: #0056ff;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 24px;
+                padding-right: 24px;
+                font-size: 18px;
+                color: white;
+                border: none;
+            }
+            #form-to-fill{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body >
+        <form style="border-color: #ccc; border-width: 1px;">
+            <h1 style=" text-align: center;">Register</h1>
+            <span id="navlogo">
+                <img class="logo" src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="Google Logo">
+                <img class="logo" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="Facebook Logo">
+                <img class="logo" src="/HTML Forms/Forms project/assets/github.jpg" alt="GitHub Logo">
+                <img class="logo" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="LinkedIn Logo">
+            </span>
+
+            <div id="form-to-fill">
+            <input type="text" name="Username" placeholder="Username" required><br>
+            <input type="email" name="email"  placeholder="Email" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="password" name="Confirm password" placeholder="Confirm Password" required><br>
+            <input class="submit" type="submit" value="Register">
+            </div>
+        </form>
+    </body>
+</html>
+
